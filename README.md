@@ -1,8 +1,7 @@
 # Tencent-opensource-hbm
 
-This project is the Rhino-Bird Open Source Program organized by Tencent, and the content was completed by me and another student from the Chinese Academy of Sciences.
 
-# sbq.py:output
+# baseline
 
 ===== 模拟传输 10000 个 65536B 块 =====
 当前批次模拟完成，耗时: 0.2834 秒
@@ -88,8 +87,21 @@ This project is the Rhino-Bird Open Source Program organized by Tencent, and the
 
 ===== 所有模拟传输完成，总耗时: 20.1472 秒 =====
 
+# new.py:output
 
+===== 模拟传输 10000 个 65536B 块 | 6个通道并发 =====
+当前批次耗时: 0.2237 秒 | 传输速率: 2793.35 MB/s
+✅ 数据验证成功。
 
+===== 模拟传输 10000 个 131072B 块 | 6个通道并发 =====
+当前批次耗时: 0.4473 秒 | 传输速率: 2794.38 MB/s
+✅ 数据验证成功。
+
+===== 模拟传输 10000 个 262144B 块 | 6个通道并发 =====
+当前批次耗时: 0.8995 秒 | 传输速率: 2779.38 MB/s
+✅ 数据验证成功。
+
+===== 所有模拟传输完成，总耗时: 20.1126 秒 =====
 
 
 
